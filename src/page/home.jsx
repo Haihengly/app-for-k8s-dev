@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-white min-h-screen">
       {/* Header */}
-      <header className="w-full bg-gray-200 border-b">
+      <header className="w-full bg-white border-b">
         <div className="container mx-auto flex items-center justify-between py-6 px-8">
           <div className="text-3xl font-bold tracking-wide">Lee.Shop</div>
           <nav>
