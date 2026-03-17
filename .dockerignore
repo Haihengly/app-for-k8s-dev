@@ -1,0 +1,38 @@
+# Ignore Git and version control
+.git
+.gitignore
+
+# Node modules / vendor folders (if using Node, PHP, etc.)
+node_modules
+vendor
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+*.env
+
+# Docker / CI stuff
+docker-compose*.yml
+.dockerignore
+Jenkinsfile
+.idea
+.vscode
+.env.*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Build output
+dist
+build
+out
+
+# Ignore test coverage / reports
+coverage
+reports
