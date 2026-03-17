@@ -1,6 +1,6 @@
 export default function ProductCard({ product }) {
   return (
-    <div className="bg-white rounded shadow-sm flex flex-col items-center p-4 transition hover:shadow-md gap-3 m-2 border-[1px] border-gray-200 w-52 h-96">
+    <div className="bg-white rounded shadow-sm flex flex-col items-center p-4 transition hover:shadow-md gap-3 m-2 border-[1px] border-gray-500 w-52 h-96">
       <div className="w-full flex-shrink-0 h-40 flex items-center justify-center">
         <img
           src={product.image}
