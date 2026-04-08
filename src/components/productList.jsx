@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ProductCard from "./productCard";
 
 const API_URL = "https://api.hengly.online/api/laptops"; // Public API
