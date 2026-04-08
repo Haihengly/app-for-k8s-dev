@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductCard from "./productCard";
 
-const API_URL = "https://api.hengly.online/api/laptops"; // Public API
+const API_URL = "http://161.118.225.44:5000/api/laptops"; // Public API
 // const API_URL = "http://backend-service.default.svc.cluster.local"; // Public API
 
 export default function ProductList() {
