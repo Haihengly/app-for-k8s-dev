@@ -16,7 +16,7 @@ export default function Home() {
               <li className="hover:text-black cursor-pointer">Contact</li>
             </ul>
           </nav>  
-          <div className="flex items-center space-x-4 text-sm text-gray-500">
+          <div className="flex items-center space-x-4 text-sm text-gray-800">
             <span>Login</span>
             <span>|</span>
             <span>Help</span>

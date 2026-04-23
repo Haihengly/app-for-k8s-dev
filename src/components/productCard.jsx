@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
           className="w-40 h-40 object-contain"
         />
       </div>
-      <h3 className="text-sm font-medium text-red-800 text-center line-clamp-3 h-16 w-full">
+      <h3 className="text-sm font-medium text-red-900 text-center line-clamp-3 h-16 w-full">
         {product.title}
       </h3>
       <p className="text-green-500 text-xs text-center h-5 w-full">Stock : {product.rating_count}</p>
