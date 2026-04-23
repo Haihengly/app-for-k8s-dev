@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full bg-white border-b">
         <div className="container mx-auto flex items-center justify-between py-6 px-8">
-          <div className="text-3xl font-bold tracking-wide">Lee.Shop</div>
+          <div className="text-3xl font-bold tracking-wide text-red-900">Lee.Shop</div>
           <nav>
             <ul className="flex space-x-8 text-gray-700 font-medium text-lg">
               <li className="hover:text-black cursor-pointer">Home</li>
@@ -16,7 +16,7 @@ export default function Home() {
               <li className="hover:text-black cursor-pointer">Contact</li>
             </ul>
           </nav>  
-          <div className="flex items-center space-x-4 text-sm text-gray-800">
+          <div className="flex items-center space-x-4 text-sm text-gray-500">
             <span>Login</span>
             <span>|</span>
             <span>Help</span>
